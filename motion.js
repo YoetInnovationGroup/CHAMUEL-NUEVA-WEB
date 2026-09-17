@@ -24,7 +24,7 @@
     }, {rootMargin:`0px 0px -${Math.min(offset, innerHeight/4)}px 0px`, threshold:0});
     observer.observe(el);
   }
-  if (window.Lenis) {
+  const useNativeScroll = matchMedia('(pointer: coarse)').matches || navigator.maxTouchPoints > 0 || innerWidth <= 767;  if (window.Lenis && !useNativeScroll) {
     const lenis = new Lenis();
     const frame = time => {lenis.raf(time); requestAnimationFrame(frame);};
     requestAnimationFrame(frame);
