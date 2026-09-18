@@ -1,20 +1,718 @@
-html{scroll-behavior:smooth;scroll-padding-top:105px}body{overflow-x:hidden}.elementor-invisible,.wow{visibility:visible!important}h1.dt-heading{font-family:Dosis,sans-serif;font-weight:700;font-size:68px;line-height:72px;color:#262626}header{position:sticky!important;top:0;z-index:1000;background:#fff}.site-logo a{display:flex!important;align-items:center;gap:8px}.site-logo .chamuel-logo{width:59px!important;height:59px;object-fit:contain}.brand-name{font-family:Dosis,sans-serif;font-weight:800;font-size:30px;color:#f76727;line-height:1}.brand-name small{display:block;font-size:10px;color:#555;line-height:1.8;white-space:nowrap}.site-logo{max-width:230px!important}.mobile-toggle{background:none;border:0;font-size:30px;display:none}.navigation-menu .main-menu>li>a{text-transform:none!important}#chamuel-menu{position:fixed;right:20px;top:88px;width:min(340px,calc(100% - 40px));padding:25px;background:white;box-shadow:0 10px 40px #0002;z-index:1100;border-radius:14px}#chamuel-menu[hidden]{display:none}#chamuel-menu a{display:block;padding:10px;color:#333;font-size:20px;font-weight:700}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #f76727;outline-offset:4px}.elementor-icon-box-description a{color:inherit}section[id],div[id]{scroll-margin-top:90px}@media(max-width:1024px){.navigation-menu{display:none!important}.mobile-toggle{display:block}.brand-name{font-size:27px}}@media(max-width:767px){h1.dt-heading{font-size:42px;line-height:1.12}.site-logo .chamuel-logo{width:45px!important;height:45px}.brand-name small{font-size:8px}.brand-name{font-size:25px}.site-logo{max-width:195px!important}header .default-btn{display:none!important}.elementor-element-8e67ac6 .desc{max-width:95%}.elementor-element-8e67ac6{overflow:hidden}}
+html{scroll-behavior:smooth!important;scroll-padding-top:90px;overflow-y:auto!important;overflow-x:clip!important;height:auto!important}body{overflow-y:visible!important;overflow-x:clip!important;height:auto!important;-webkit-overflow-scrolling:touch}.elementor-invisible,.wow{visibility:visible!important}h1.dt-heading{font-family:Dosis,sans-serif;font-weight:700;font-size:68px;line-height:72px;color:#262626}header{position:sticky!important;top:0;z-index:1000;background:#fff}.site-logo a{display:flex!important;align-items:center;gap:8px}.site-logo .chamuel-logo{width:59px!important;height:59px;object-fit:contain}.brand-name{font-family:Dosis,sans-serif;font-weight:800;font-size:30px;color:#f76727;line-height:1}.brand-name small{display:block;font-size:10px;color:#555;line-height:1.8;white-space:nowrap}.site-logo{max-width:230px!important}.mobile-toggle,.sidebar-trigger,.navigation-menu,#chamuel-menu{display:none!important}.navigation-inner{display:flex!important;justify-content:space-between!important;align-items:center!important;width:100%!important}.header-right{display:flex!important;align-items:center!important}.header-right .default-btn{display:inline-flex!important;align-items:center!important;justify-content:center!important}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #f76727;outline-offset:4px}.elementor-icon-box-description a{color:inherit}section[id],div[id]{scroll-margin-top:90px}@media(max-width:767px){h1.dt-heading{font-size:42px;line-height:1.12}.site-logo .chamuel-logo{width:45px!important;height:45px}.brand-name small{font-size:8px}.brand-name{font-size:25px}.site-logo{max-width:195px!important}.header-right .default-btn{display:inline-flex!important;padding:8px 16px!important;font-size:14px!important;min-height:40px!important;height:40px!important}.elementor-element-8e67ac6 .desc{max-width:95%}}
 body{padding-top:0!important}.header-wrapper .navigation-inner{min-height:90px}.default-btn{background-color:var(--kidden-primary-color,#f76727)!important}.dt-heading,.sub-heading,.elementor-icon-box-title{text-transform:none!important}#inicio::before{z-index:4;pointer-events:none}.adv-bg{position:absolute;inset:0;pointer-events:none;z-index:3}.elementor-element-8e67ac6 .adv-bg{z-index:4}.elementor-element-8e67ac6>.e-con-inner{z-index:2}.chamuel-programs{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.chamuel-programs>.slick-slide{display:block;float:none;width:auto!important}.el-program-card-inner{height:100%}.program-content p{line-height:1.5}.approach-list>div{display:flex;gap:18px;margin:22px 0}.approach-list>div>span{flex-shrink:0;width:46px;height:46px;background:#f76727;color:#fff;display:grid;place-items:center;border-radius:50%;font-weight:700}.approach-list p{margin:0}.approach-list strong{display:block;color:#262626;font-size:23px;margin-bottom:7px}.professional{display:grid;grid-template-columns:1fr 1.1fr;gap:60px;align-items:center;width:100%;max-width:1000px;margin:30px auto 0}.professional-visual{background:#fff;border-radius:55% 45% 42% 58%/46% 59% 41% 54%;overflow:hidden;padding:28px}.professional-visual img{width:100%;mix-blend-mode:multiply}.professional-copy h3{font-size:44px;line-height:1.16;margin:15px 0 22px}.professional-tag{font-weight:700;color:#f76727}.professional-copy p{font-size:19px;line-height:1.6}.professional-copy .default-btn{margin-top:15px}.faq-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;width:100%}.faq-grid details{background:#fff4ec;border:1px solid #ffdfc9;border-radius:12px;padding:26px 28px;align-self:start}.faq-grid details:nth-child(2),.faq-grid details:nth-child(3){background:#f0f6e8;border-color:#d9e6c5}.faq-grid summary{font-size:24px;font-weight:700;color:#262626;cursor:pointer;line-height:1.4}.faq-grid p{margin:15px 0 0;font-size:18px;line-height:1.6}.chamuel-contact{padding:50px 0 100px}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:85px;align-items:start}.chamuel-contact .sub-heading{font-size:18px;font-weight:700;color:#f76727}.chamuel-contact h2{font-family:Dosis,sans-serif;font-size:56px;line-height:1.1;color:#262626;font-weight:700;margin:20px 0 24px}.chamuel-contact h2 span{background:linear-gradient(transparent 80%,#f3b91e 80%,#f3b91e 92%,transparent 92%)}.chamuel-contact ul{list-style:none;margin:20px 0;padding:0}.chamuel-contact li{margin:18px 0}.chamuel-contact li strong{display:block;color:#262626}.chamuel-contact li a{color:#555;overflow-wrap:anywhere}#consultation{padding:38px;border-radius:22px;background:#fff3db;border:1px solid #f4e3c1}#consultation h3{font-size:29px;font-weight:700;margin:0 0 22px}#consultation label{display:block;margin:15px 0 6px;font-weight:700;color:#333}#consultation label span{font-weight:500}#consultation input,#consultation textarea,#consultation select{width:100%;padding:12px 15px;background:#fff;border:1px solid #e5d8c4;border-radius:7px;font-family:inherit;font-size:18px;color:#333}#consultation button{margin-top:20px;border:none;font-family:inherit;cursor:pointer}.form-note{font-size:14px;line-height:1.5;margin:17px 0 0}.footer-brand{font-size:42px;font-weight:800;color:#f76727;line-height:1}.footer-brand span{display:block;font-size:17px;margin-top:12px;color:#555}.footer-widget-items{gap:25px}.contact-info-list{overflow-wrap:anywhere}.design-credit{font-size:14px;opacity:.75}.footer-widget-item .default-btn{padding:0 20px;white-space:normal;line-height:1.4;min-height:52px;display:inline-flex;align-items:center}#contacto select:focus-visible{outline:3px solid #f76727;outline-offset:3px}@media(max-width:1024px){.contact-grid{gap:40px}.professional{gap:30px}.chamuel-programs{gap:15px}.professional-copy h3{font-size:36px}.header-wrapper .navigation-inner{min-height:80px}}@media(max-width:767px){.header-wrapper .navigation-inner{min-height:75px}.chamuel-programs,.professional,.faq-grid,.contact-grid{grid-template-columns:1fr}.chamuel-programs{gap:32px}.professional{gap:25px;margin-top:0}.professional-visual{max-width:330px;margin:auto}.chamuel-contact{padding:35px 0 65px}.chamuel-contact h2{font-size:42px}.contact-grid{gap:30px}#consultation{padding:25px}.faq-grid summary{font-size:22px}.professional-copy h3{font-size:34px}.el-program-card .project-thumb img{max-height:390px;object-fit:cover}.footer-widget-items{gap:35px}.elementor-element-8e67ac6 .adv-bg{background-size:cover!important}.elementor-element-8e67ac6>.e-con-inner{padding-bottom:20px}}
 #inicio::before{z-index:0}#inicio>.e-con-inner{z-index:1}.reveal-wait{opacity:0!important;animation:none!important}.default-btn{isolation:isolate}.professional-visual,.faq-grid details{transition:transform .3s ease}.faq-grid details:hover{transform:translateY(-3px)}
 #inicio>.e-con-inner{z-index:auto;position:static}#inicio .elementor-element-1c036cd{z-index:3}#inicio .dt-heading br{display:block!important}.mobile-toggle{width:44px!important;height:44px;padding:8px!important;color:#262626!important;font-size:30px!important;line-height:1!important;opacity:1!important;visibility:visible!important;background:transparent!important;box-shadow:none!important}.mobile-toggle::before,.mobile-toggle::after{display:none!important}@media(max-width:767px){#inicio{--padding-top:45px;--padding-bottom:35px}#inicio .dt-heading{font-size:42px;line-height:1.12}#inicio .adv-bg{background-size:contain!important}#inicio .elementor-element-b11eb7c{display:block!important;position:relative!important;right:auto!important;left:auto!important;bottom:auto!important;width:100%!important;max-width:360px;margin:0 auto}#inicio .elementor-element-a87ef47{height:335px;min-height:335px;padding:0}#inicio .el-multi-image-wrap{height:335px}#inicio .elementor-repeater-item-135fea2{width:64%!important;top:0!important;right:-5%!important;left:auto!important;bottom:auto!important}#inicio .elementor-repeater-item-360cec7{width:60%!important;top:0!important;left:1%!important;bottom:auto!important}#inicio .elementor-repeater-item-660a5a9{width:26%!important;left:0!important;top:130px!important;bottom:auto!important}#inicio .desc{font-size:19px;line-height:1.6}#inicio .e-con-inner{gap:15px}}
 .motion-paused *,.motion-paused *::before,.motion-paused *::after{animation:none!important;transition:none!important}.motion-paused .reveal-wait{opacity:1!important}#motion-toggle{border:0;padding:5px;background:transparent;color:#666;font:inherit;font-size:14px;cursor:pointer;text-decoration:underline}.back-top{position:fixed;bottom:20px;right:20px;width:46px;height:46px;display:grid;place-items:center;background:#f76727;color:white;font-size:32px;border-radius:14px;z-index:99}.back-top:hover{color:white;background:#d95116}
 html:not(.motion-paused) .default-btn,html:not(.motion-paused) .blob-dl-btn__blobs span,html:not(.motion-paused) .service-item,html:not(.motion-paused) .el-program-card img{transition-duration:.3s!important}
 .bars-caption{font-size:13px!important;margin-top:8px;line-height:1.5;color:#777}.dl-skill-level{width:0}.admission-section{padding:80px 20px 110px;background:#fff}.admission-heading{text-align:center;max-width:680px;margin:0 auto 32px}.admission-heading .sub-heading{color:#f76727;font-size:18px;font-weight:700;margin:0 0 14px}.admission-heading h2{font-family:Dosis,sans-serif;font-size:48px;line-height:1.15;font-weight:700;color:#333;margin:0 0 22px}.admission-heading h2 span{background:linear-gradient(transparent 80%,#f3b91e 80%,#f3b91e 92%,transparent 92%)}.admission-heading p{font-size:18px;line-height:28px;color:#666}.admission-scene{position:relative;max-width:672px;margin:auto}.admission-monkey{position:absolute;width:240px;max-width:none;bottom:65px;left:-235px;z-index:0}.admission-giraffe{position:absolute;width:185px;max-width:none;right:-185px;bottom:0;z-index:0}#admission-form{position:relative;background:#fff;padding:60px 30px 32px;box-shadow:0 0 15px #00000012;text-align:center;z-index:1}.admission-fields{display:grid;grid-template-columns:1fr 1fr;gap:20px}.admission-fields label{margin:0}.admission-fields input{font:500 16px Dosis,sans-serif;border:1px solid transparent!important;background:#f0efeb!important;border-radius:17px!important;height:61px!important;padding:18px 20px!important;color:#333;width:100%;min-width:0;box-shadow:none}.admission-fields input:focus{border-color:#f76727!important}.admission-fields input::placeholder{color:#444;opacity:1}#admission-form .default-btn{margin-top:35px;min-width:182px;border:none;font:700 16px Dosis,sans-serif;border-radius:18px;padding:17px 28px;line-height:1.5;cursor:pointer}.admission-note{font-size:13px;line-height:1.6;margin:20px 0 0;color:#777}.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:1150px){.admission-scene{max-width:62vw}.admission-monkey{width:170px;left:-165px}.admission-giraffe{width:140px;right:-140px}}@media(max-width:767px){.admission-section{padding:65px 20px 70px}.admission-heading h2{font-size:38px}.admission-scene{max-width:100%;padding-top:80px}.admission-monkey{width:90px;left:0;top:0;bottom:auto;z-index:2}.admission-giraffe{width:63px;right:0;top:-20px;bottom:auto;z-index:2}#admission-form{padding:30px 20px}.admission-fields{grid-template-columns:1fr;gap:15px}.admission-fields input{height:58px!important}#admission-form .default-btn{margin-top:25px}.admission-note{font-size:12px}.bars-caption{font-size:12px!important}}
-.chamuel-testimonials .desc{font-size:16px!important;line-height:1.6!important}.chamuel-testimonials .el-testimonial-item{min-height:320px}.chamuel-testimonials .el-testimonial-item p{font-size:21px;line-height:1.6}.chamuel-testimonials .dl-carousel-dots .slick-dots button{width:8px;height:8px;border:0;background:transparent;font-size:0;padding:0;cursor:pointer}.chamuel-testimonials .el-client-info h4{font-size:15px}.chamuel-testimonials .dl-carousel-nav{display:block!important}.chamuel-testimonials .slick-arrow{display:flex!important}.chamuel-testimonials .slick-prev{left:0}.chamuel-testimonials .slick-next{right:0}@media(max-width:1024px){.header-right .sidebar-trigger{display:none!important}}
+.chamuel-testimonials .desc{font-size:16px!important;line-height:1.6!important}.chamuel-testimonials .dl-carousel-dots .slick-dots button{width:8px;height:8px;border:0;background:transparent;font-size:0;padding:0;cursor:pointer}.chamuel-testimonials .el-client-info h4{font-size:15px}.chamuel-testimonials .dl-carousel-nav{display:block!important}.chamuel-testimonials .slick-arrow{display:flex!important}.chamuel-testimonials .slick-prev{left:0}.chamuel-testimonials .slick-next{right:0}@media(max-width:1024px){.header-right .sidebar-trigger{display:none!important}}
 .professional-visual{padding:0;background:#fff3db;border:10px solid #fff5da;box-shadow:12px 15px 0 #ffe4ad}.professional-visual img{aspect-ratio:4/5;object-fit:cover;mix-blend-mode:normal;display:block;width:100%}@media(max-width:767px){.professional-visual{width:100%;max-width:320px;margin:0 auto 20px}}
 .footer-wrapper.default-bg{background-size:max(100%,1000px) auto;background-position:center bottom}.footer-widgets-area{padding-bottom:max(195px,calc(14.22vw + 45px))!important}
 .admission-section{padding:0 0 110px}.admission-heading{max-width:none;margin:0 0 65px;padding:85px 24px 95px;background:#cbd7fc url('assets/dcb734a970-page-banner.jpg') center center/cover no-repeat;position:relative}.admission-heading h2,.admission-heading p{max-width:680px;margin-left:auto;margin-right:auto}.admission-heading .sub-heading{display:inline-block;background:#f76727;color:#fff;border-radius:12px;padding:7px 24px}.admission-heading::after{content:'';position:absolute;left:0;right:0;bottom:-1px;height:25px;background:radial-gradient(ellipse at 50% 100%,#fff 68%,transparent 70%) 0 0/120px 35px repeat-x}.admission-heading p{color:#454952}.admission-scene{width:calc(100% - 40px)}
 .chamuel-testimonials .el-testimonial-wrapper{position:relative}.chamuel-testimonials button.slick-arrow{position:absolute!important;top:40%;width:44px!important;height:46px!important;min-width:0;padding:12px!important;margin:0!important;border:0!important;background:#fff!important;color:#343434!important;align-items:center;justify-content:center;z-index:5;transform:translateY(-50%);cursor:pointer}.chamuel-testimonials button.slick-prev{left:0!important;border-radius:0 15px 15px 0!important}.chamuel-testimonials button.slick-next{right:0!important;border-radius:15px 0 0 15px!important}.chamuel-testimonials button.slick-arrow svg{width:22px!important;height:14px!important;display:block}.chamuel-testimonials button.slick-arrow:hover{background:#f76727!important;color:#fff!important}.chamuel-testimonials button.slick-arrow:focus-visible{outline:3px solid #f9b001;outline-offset:2px}.chamuel-testimonials .dl-carousel-nav{height:0}
 @media(max-width:767px){.admission-section{padding-bottom:70px}.admission-heading{padding:65px 24px 80px;margin-bottom:35px;background-position:64% center}.admission-heading h2{font-size:38px}.admission-heading p{background:#d5dffdba;border-radius:12px;padding:12px}.footer-widgets-area{padding-bottom:195px!important}.chamuel-testimonials button.slick-arrow{top:40%}}
-html.lenis{scroll-behavior:auto!important}html.lenis,html.lenis body{height:auto}.lenis.lenis-smooth{scroll-behavior:auto!important}.lenis.lenis-stopped{overflow:hidden}
+html,body{scroll-behavior:smooth!important;overscroll-behavior-y:auto;touch-action:pan-y}
 .admission-fields{grid-template-columns:1fr}.admission-fields textarea{font:500 16px Dosis,sans-serif;border:1px solid transparent;background:#f0efeb;border-radius:17px;padding:18px 20px;color:#333;width:100%;min-height:150px;resize:vertical}.admission-fields textarea::placeholder{color:#444;opacity:1}.admission-fields textarea:focus{border-color:#f76727}
 #admission-form button.default-btn{display:inline-flex;align-items:center;justify-content:center;text-align:center;box-sizing:border-box;min-height:56px;padding:0 28px;line-height:1;vertical-align:middle;text-transform:none;letter-spacing:0}
 .site-logo{max-width:320px!important}.site-logo a{gap:12px}.brand-symbol{position:relative;display:block;flex:0 0 105px;width:105px;height:88px;overflow:hidden}.site-logo .brand-symbol .chamuel-logo{position:absolute;width:144px!important;height:144px;max-width:none;left:-20px;top:-27px;object-fit:contain}.header-wrapper .navigation-inner{min-height:108px}.brand-name{font-size:29px}@media(max-width:767px){.site-logo{max-width:290px!important}.site-logo a{gap:9px}.brand-symbol{flex-basis:85px;width:85px;height:74px}.site-logo .brand-symbol .chamuel-logo{width:118px!important;height:118px;left:-17px;top:-22px}.header-wrapper .navigation-inner{min-height:86px}.brand-name{font-size:26px}.brand-name small{font-size:8px}}
 .site-logo{max-width:320px!important}.site-logo a{gap:12px}.brand-symbol{position:relative;display:block;flex:0 0 105px;width:105px;height:88px;overflow:hidden}.site-logo .brand-symbol .chamuel-logo{position:absolute;width:144px!important;height:144px;max-width:none;left:-20px;top:-27px;object-fit:contain}.header-wrapper .navigation-inner{min-height:108px}.brand-name{font-size:29px}@media(max-width:767px){.site-logo{max-width:245px!important;min-width:0}.site-logo a{gap:6px;max-width:100%;min-width:0}.brand-symbol{flex:0 0 70px;width:70px;height:68px}.site-logo .brand-symbol .chamuel-logo{width:103px!important;height:103px;left:-17px;top:-18px}.header-wrapper .navigation-inner{min-height:82px}.brand-name{font-size:23px;min-width:0}.brand-name small{font-size:7px;white-space:normal;line-height:1.25}.mobile-toggle{flex:0 0 auto;margin-left:8px}}
 
-@media(max-width:767px){html,body{overflow-y:auto!important;touch-action:pan-y;overscroll-behavior-y:auto}.elementor-element-075d1d4 .elementor-repeater-item-0a918fe{width:86px!important;left:auto!important;right:8%!important;top:10%!important}.elementor-element-1a8dbf4 .elementor-repeater-item-0a918fe{width:92px!important;left:auto!important;right:8%!important;top:24%!important}.elementor-element-20b4aea,.elementor-element-744ceca,.elementor-element-aab7e9c{overflow:visible!important;margin-bottom:42px!important}.elementor-widget-kidden-service,.service-item.style-2{overflow:visible!important}.service-item.style-2{margin-bottom:28px!important}.service-item.style-2 .service-content{min-height:220px!important;display:flex!important;flex-direction:column!important;align-items:center!important}.service-item.style-2 .service-desc{flex:1}.chamuel-testimonials{overflow:hidden!important}.chamuel-testimonials .slick-track{display:flex!important;align-items:stretch!important}.chamuel-testimonials .slick-slide{height:auto!important}.chamuel-testimonials .slick-slide>div{height:100%!important}.chamuel-testimonials .el-testimonial-item{min-height:0!important;height:100%!important;padding:28px 24px 32px!important;margin:0 6px!important}.chamuel-testimonials .el-testimonial-item p{font-size:18px!important;line-height:1.5!important;margin-bottom:18px!important}.chamuel-testimonials .el-testi-meta{grid-template-columns:64px 1fr!important;gap:16px!important;margin-bottom:18px!important}.chamuel-testimonials .el-testi-meta .el-client-thumb{width:64px!important;height:64px!important}.chamuel-testimonials button.slick-arrow{top:50%!important}}
+@media(max-width:767px){html,body{overflow-y:auto!important;touch-action:pan-y;overscroll-behavior-y:auto}.elementor-element-075d1d4 .elementor-repeater-item-0a918fe{width:86px!important;left:auto!important;right:8%!important;top:10%!important}.elementor-element-1a8dbf4 .elementor-repeater-item-0a918fe{width:92px!important;left:auto!important;right:8%!important;top:24%!important}.elementor-element-20b4aea,.elementor-element-744ceca,.elementor-element-aab7e9c{overflow:visible!important;margin-bottom:42px!important}.elementor-widget-kidden-service,.service-item.style-2{overflow:visible!important}.service-item.style-2{margin-bottom:28px!important}.service-item.style-2 .service-content{min-height:220px!important;display:flex!important;flex-direction:column!important;align-items:center!important}.service-item.style-2 .service-desc{flex:1}.chamuel-testimonials{overflow:hidden!important}.chamuel-testimonials button.slick-arrow{top:50%!important}}
+
+/* Testimonials: Authentic PC design replicated on all devices */
+.chamuel-testimonials .el-testimonial-item {
+  background-color: transparent !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  min-height: 480px !important;
+  padding: 55px 42px 65px 42px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  text-align: left !important;
+  box-sizing: border-box !important;
+  max-width: 440px !important;
+  margin: 0 auto !important;
+}
+.chamuel-testimonials .elementor-repeater-item-ff38e09.el-testimonial-item {
+  background-image: url("assets/90fd935c24-testimonial-shape-red.png") !important;
+}
+.chamuel-testimonials .elementor-repeater-item-83f8d38.el-testimonial-item {
+  background-image: url("assets/e08313e360-testimonial-shape-blue.png") !important;
+}
+.chamuel-testimonials .elementor-repeater-item-c4e88f7.el-testimonial-item {
+  background-image: url("assets/6d567bdc60-testimonial-shape-green.png") !important;
+}
+.chamuel-testimonials .elementor-repeater-item-c896b99.el-testimonial-item {
+  background-image: url("assets/8029b75250-testimonial-shape-yellow.png") !important;
+}
+.chamuel-testimonials .el-testi-meta {
+  display: grid !important;
+  grid-template-columns: 80px 1fr !important;
+  align-items: center !important;
+  gap: 20px !important;
+  margin-bottom: 20px !important;
+}
+.chamuel-testimonials .el-client-thumb {
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50% !important;
+  overflow: hidden !important;
+}
+.chamuel-testimonials .el-client-thumb img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+.chamuel-testimonials .el-testimonial-item h3 {
+  font-family: "Dosis", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  text-transform: capitalize !important;
+  letter-spacing: 0px !important;
+  color: #343434 !important;
+  margin: 0 !important;
+}
+.chamuel-testimonials .el-testimonial-item p {
+  font-family: "Dosis", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  line-height: 32px !important;
+  letter-spacing: 0px !important;
+  color: #343434 !important;
+  margin: 0 0 16px 0 !important;
+}
+.chamuel-testimonials .el-testimonial-item .ratings {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.chamuel-testimonials .el-testimonial-item .ratings li {
+  font-size: 16px !important;
+  color: #ff9529 !important;
+  margin-right: 3px !important;
+}
+@media(max-width:480px){
+  .chamuel-testimonials .el-testimonial-item {
+    min-height: 440px !important;
+    padding: 48px 32px 58px 32px !important;
+  }
+  .chamuel-testimonials .el-testi-meta {
+    grid-template-columns: 68px 1fr !important;
+    gap: 16px !important;
+    margin-bottom: 16px !important;
+  }
+  .chamuel-testimonials .el-client-thumb {
+    width: 68px !important;
+    height: 68px !important;
+  }
+  .chamuel-testimonials .el-testimonial-item p {
+    font-size: 18px !important;
+    line-height: 28px !important;
+  }
+}
+
+/* Single continuous landing page & smooth desktop/mobile scrolling */
+html {
+  scroll-behavior: smooth !important;
+  overflow-y: auto !important;
+  overflow-x: clip !important;
+  height: auto !important;
+}
+
+body {
+  overflow-y: visible !important;
+  overflow-x: clip !important;
+  height: auto !important;
+  touch-action: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+#page, .site {
+  overflow: visible !important;
+  height: auto !important;
+}
+
+.elementor, .e-con, .e-con-inner, .elementor-element {
+  touch-action: auto;
+}
+
+/* ===================================================
+   TOP SCROLL PROGRESS INDICATOR
+   =================================================== */
+#scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3.5px;
+  background: linear-gradient(90deg, #f76727 0%, #f3b91e 50%, #f76727 100%);
+  background-size: 200% 100%;
+  z-index: 100000;
+  pointer-events: none;
+  transition: width 0.08s ease-out;
+  box-shadow: 0 1px 8px rgba(247, 103, 39, 0.45);
+}
+
+/* ===================================================
+   DYNAMIC HEADER & GLASSMORPHISM ON SCROLL (STICKY)
+   =================================================== */
+.header-wrapper {
+  position: sticky !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  z-index: 1000 !important;
+  background: #ffffff !important;
+  transition: background-color 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+              backdrop-filter 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+}
+
+.header-wrapper.header-scrolled {
+  background: rgba(255, 255, 255, 0.96) !important;
+  backdrop-filter: blur(14px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(180%) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+.header-wrapper.header-scrolled .navigation-inner {
+  min-height: 82px !important;
+}
+
+/* ===================================================
+   HEADER NAVIGATION (INICIO, NOSOTROS, SERVICIOS, PROFESIONAL, CONTACTO)
+   =================================================== */
+.chamuel-header-nav {
+  display: flex !important;
+  align-items: center;
+  gap: clamp(14px, 2vw, 32px);
+  margin-left: auto;
+  margin-right: 28px;
+}
+
+.header-nav-btn {
+  font-family: Dosis, sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: #262626 !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 6px 4px !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative !important;
+  transition: color 0.2s ease-in-out !important;
+  text-decoration: none !important;
+  line-height: 1 !important;
+  letter-spacing: 0.1px !important;
+  white-space: nowrap !important;
+}
+
+.header-nav-btn::after {
+  display: none !important;
+}
+
+.header-nav-btn:hover {
+  color: #f76727 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.header-nav-btn.active {
+  color: #f76727 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  font-weight: 700 !important;
+}
+
+/* ===================================================
+   HAMBURGER 3-LINES BUTTON & CTA - EXACT SCREENSHOT DESIGN
+   =================================================== */
+.header-right {
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+  flex-shrink: 0 !important;
+}
+
+.header-cta-btn {
+  font-family: Dosis, sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  background-color: #f76727 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  border-bottom: 3px solid #df5315 !important;
+  padding: 0 24px !important;
+  line-height: 44px !important;
+  height: 44px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  position: relative !important;
+  overflow: hidden !important;
+  z-index: 1 !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.header-cta-btn:hover {
+  color: #fff !important;
+  background-color: #f76727 !important;
+  transform: translateY(-1px) !important;
+}
+
+.header-cta-btn:active {
+  transform: translateY(1px) !important;
+}
+
+.chamuel-hamburger-btn {
+  display: inline-flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 5px !important;
+  width: 40px !important;
+  height: 40px !important;
+  min-width: 40px !important;
+  padding: 6px !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  cursor: pointer !important;
+  transition: transform 0.2s ease !important;
+  position: relative !important;
+  z-index: 1001 !important;
+  box-shadow: none !important;
+}
+
+.chamuel-hamburger-btn:hover {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.chamuel-hamburger-btn .hamburger-line {
+  display: block !important;
+  width: 25px !important;
+  height: 2.5px !important;
+  background-color: #262626 !important;
+  border-radius: 2px !important;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+              opacity 0.25s ease,
+              background-color 0.25s ease !important;
+  pointer-events: none !important;
+}
+
+.chamuel-hamburger-btn:hover .hamburger-line {
+  background-color: #f76727 !important;
+}
+
+.chamuel-hamburger-btn.is-active {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.chamuel-hamburger-btn.is-active .line-1 {
+  transform: translateY(7.5px) rotate(45deg) !important;
+  background-color: #f76727 !important;
+}
+
+.chamuel-hamburger-btn.is-active .line-2 {
+  opacity: 0 !important;
+  transform: scale(0.3) !important;
+}
+
+.chamuel-hamburger-btn.is-active .line-3 {
+  transform: translateY(-7.5px) rotate(-45deg) !important;
+  background-color: #f76727 !important;
+}
+
+/* ===================================================
+   OFF-CANVAS POPUP SIDEBOX - EXACT REFERENCE DESIGN
+   =================================================== */
+.chamuel-drawer {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 10005 !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+  transition: visibility 0.4s ease !important;
+}
+
+.chamuel-drawer.is-open {
+  pointer-events: auto !important;
+  visibility: visible !important;
+}
+
+.drawer-overlay,
+#sidebox-overlay {
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(15, 23, 42, 0.45) !important;
+  backdrop-filter: blur(4px) !important;
+  -webkit-backdrop-filter: blur(4px) !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              visibility 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  z-index: 10005 !important;
+}
+
+.chamuel-drawer.is-open .drawer-overlay,
+.chamuel-drawer.is-open #sidebox-overlay,
+body.open-sidebox #sidebox-overlay {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+.popup-sidebox {
+  background-color: #ffffff !important;
+  padding: 55px 44px 45px !important;
+  position: fixed !important;
+  right: -100% !important;
+  top: 0 !important;
+  width: 400px !important;
+  max-width: 90vw !important;
+  height: 100vh !important;
+  border-radius: 70px 0 0 70px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  visibility: hidden !important;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  transition: all 0.55s cubic-bezier(0.77, 0, 0.175, 1) !important;
+  z-index: 10006 !important;
+  box-shadow: -15px 0 50px rgba(0, 0, 0, 0.12) !important;
+  box-sizing: border-box !important;
+}
+
+.popup-sidebox::-webkit-scrollbar {
+  width: 5px;
+}
+
+.popup-sidebox::-webkit-scrollbar-thumb {
+  background: #f76727;
+  border-radius: 4px;
+}
+
+.chamuel-drawer.is-open .popup-sidebox,
+body.open-sidebox .popup-sidebox {
+  right: 0 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+.popup-sidebox a,
+.popup-sidebox button {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+.sidebox-close {
+  background-color: transparent !important;
+  position: absolute !important;
+  right: 32px !important;
+  top: 32px !important;
+  color: #666666 !important;
+  border: none !important;
+  cursor: pointer !important;
+  padding: 6px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.25s ease !important;
+  z-index: 10 !important;
+}
+
+.sidebox-close:hover {
+  color: #f76727 !important;
+  transform: scale(1.12) !important;
+}
+
+.sidebox-content {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  text-align: left !important;
+}
+
+.sidebox-content .site-logo {
+  margin-bottom: 24px !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.sidebox-brand-link {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  text-decoration: none !important;
+}
+
+.sidebox-chamuel-logo {
+  width: 62px !important;
+  height: 62px !important;
+  object-fit: contain !important;
+  flex-shrink: 0 !important;
+}
+
+.sidebox-brand-info {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  text-align: left !important;
+}
+
+.sidebox-brand-info .brand-name {
+  font-family: Dosis, sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 32px !important;
+  color: #f76727 !important;
+  line-height: 1 !important;
+  letter-spacing: -0.5px !important;
+}
+
+.sidebox-brand-info small {
+  display: block !important;
+  font-family: Dosis, sans-serif !important;
+  font-size: 11px !important;
+  color: #666666 !important;
+  font-weight: 600 !important;
+  line-height: 1.35 !important;
+  margin-top: 3px !important;
+  white-space: normal !important;
+}
+
+.sidebox-content p.sidebox-desc {
+  font-family: Dosis, sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  color: #666666 !important;
+  line-height: 1.55 !important;
+  margin: 0 0 32px 0 !important;
+  text-align: left !important;
+}
+
+.sidebox-content .sidebox-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 0 32px 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 22px !important;
+  width: 100% !important;
+}
+
+.sidebox-content .sidebox-list li {
+  font-family: Dosis, sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: #555555 !important;
+  line-height: 1.35 !important;
+  text-align: left !important;
+}
+
+.sidebox-content .sidebox-list li span.sidebox-label {
+  font-family: Dosis, sans-serif !important;
+  color: #f76727 !important;
+  display: block !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  margin-bottom: 4px !important;
+  letter-spacing: 0.1px !important;
+}
+
+.sidebox-content .sidebox-list li.highlight {
+  font-family: Dosis, sans-serif !important;
+  color: #262626 !important;
+  font-size: 34px !important;
+  font-weight: 800 !important;
+  line-height: 1.1 !important;
+  letter-spacing: -0.5px !important;
+}
+
+.sidebox-content .sidebox-list li.highlight .sidebox-phone-val {
+  color: #262626 !important;
+  text-decoration: none !important;
+  font-family: Dosis, sans-serif !important;
+  font-size: 34px !important;
+  font-weight: 800 !important;
+  cursor: default !important;
+  user-select: text !important;
+  pointer-events: auto !important;
+}
+
+.sidebox-content .sidebox-list li .sidebox-addr-val {
+  font-family: Dosis, sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: #555555 !important;
+  line-height: 1.35 !important;
+}
+
+.sidebox-content .sidebox-list li .sidebox-email-val {
+  font-family: Dosis, sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: #555555 !important;
+  line-height: 1.35 !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease !important;
+}
+
+.sidebox-content .sidebox-list li .sidebox-email-val:hover {
+  color: #f76727 !important;
+}
+
+.side-socials {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  flex-wrap: wrap !important;
+  gap: 12px !important;
+  margin-top: 6px !important;
+}
+
+.side-socials a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 44px !important;
+  height: 44px !important;
+  font-size: 18px !important;
+  line-height: 1 !important;
+  color: #262626 !important;
+  background-color: #f3f3f3 !important;
+  border-radius: 50% !important;
+  text-decoration: none !important;
+  transition: all 0.25s ease-in-out !important;
+}
+
+.side-socials a:hover {
+  background-color: #f76727 !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Phone link in Nosotros section */
+.phone-link-active {
+  color: #262626 !important;
+  font-size: 24px !important;
+  font-weight: 800 !important;
+  font-family: Dosis, sans-serif !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  transition: all 0.22s ease !important;
+  cursor: pointer !important;
+  position: relative !important;
+}
+
+.phone-link-active:hover {
+  color: #f76727 !important;
+  transform: translateX(3px) !important;
+}
+
+.phone-icon-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.phone-icon-link:hover {
+  transform: scale(1.12) !important;
+  color: #f76727 !important;
+}
+
+@media (max-width: 480px) {
+  .popup-sidebox {
+    width: 320px !important;
+    padding: 45px 28px 35px !important;
+    border-radius: 40px 0 0 40px !important;
+  }
+  .sidebox-content .sidebox-list li.highlight .sidebox-phone-val {
+    font-size: 28px !important;
+  }
+}
+
+/* Responsive adjustments for header */
+@media (max-width: 991px) {
+  .chamuel-header-nav {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .chamuel-header-nav {
+    display: none !important;
+  }
+  .header-cta-btn {
+    font-size: 13px !important;
+    padding: 0 14px !important;
+    height: 38px !important;
+    line-height: 38px !important;
+  }
+  .chamuel-hamburger-btn {
+    width: 38px !important;
+    height: 38px !important;
+    min-width: 38px !important;
+    padding: 6px !important;
+  }
+  .chamuel-hamburger-btn .hamburger-line {
+    width: 22px !important;
+  }
+  .header-right {
+    gap: 10px !important;
+  }
+}
+
+/* ===================================================
+   SMOOTH LENIS INERTIA SCROLL & MOMENTUM STYLING
+   =================================================== */
+html.lenis {
+  height: auto !important;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: visible !important;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+

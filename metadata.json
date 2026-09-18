@@ -1,0 +1,6 @@
+{
+  "name": "Chamuel",
+  "description": "Centro de Apoyo Educativo y Psicopedagógico Chamuel en San Isidro de Alajuela",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -102,31 +102,93 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 	background-repeat: repeat-x;
 }
 </style>
-<meta name="description" content="Tutorías, lectoescritura y apoyo psicopedagógico en San Isidro de Alajuela. Centro Chamuel: acompañamiento respetuoso para aprender con confianza."><meta name="theme-color" content="#f76727"><link rel="icon" type="image/png" href="assets/1d758cd814-1E0PsKb.png"><link rel="shortcut icon" type="image/png" href="assets/1d758cd814-1E0PsKb.png"><link rel="apple-touch-icon" href="assets/1d758cd814-1E0PsKb.png"><link rel="stylesheet" href="chamuel.css"><script src="chamuel.js" defer=""></script><script src="assets/lenis.min.js" defer=""></script><script src="motion.js" defer=""></script><script src="assets/jquery.min.js" defer=""></script><script src="assets/slick.min.js" defer=""></script><script src="carousel.js" defer=""></script></head>
+<meta name="description" content="Tutorías, lectoescritura y apoyo psicopedagógico en San Isidro de Alajuela. Centro Chamuel: acompañamiento respetuoso para aprender con confianza."><meta name="theme-color" content="#f76727"><link rel="icon" type="image/png" href="assets/1d758cd814-1E0PsKb.png"><link rel="shortcut icon" type="image/png" href="assets/1d758cd814-1E0PsKb.png"><link rel="apple-touch-icon" href="assets/1d758cd814-1E0PsKb.png"><link rel="stylesheet" href="chamuel.css"><script src="assets/lenis.min.js" defer=""></script><script src="chamuel.js" defer=""></script><script src="motion.js" defer=""></script><script src="assets/jquery.min.js" defer=""></script><script src="assets/slick.min.js" defer=""></script><script src="carousel.js" defer=""></script></head>
 
 <body class="home wp-singular page-template page-template-elementor-template page-template-elementor-template-php page page-id-103 wp-theme-kidden tribe-no-js is-primary-menu no-page-banner is-preloader sticky-enable elementor-default elementor-kit-5 elementor-page elementor-page-103">
+<div id="scroll-progress-bar" aria-hidden="true"></div>
 	
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#inicio">Saltar al contenido</a>
 
-    <header class="header-wrapper header-color-scheme-black" style="">
+    <header class="header-wrapper header-color-scheme-black">
     <div class="navigation-wrapper">
         <div class="container">
             <div class="navigation-inner">
                 <div class="site-logo">
-                    <a href="#inicio"><span class="brand-symbol"><img src="assets/1d758cd814-1E0PsKb.png" alt="Chamuel" class="chamuel-logo"></span><span class="brand-name">Chamuel<small>Apoyo educativo y psicopedagógico</small></span></a>
+                    <a href="javascript:void(0)" data-scroll-to="#inicio" aria-label="Ir al inicio de Chamuel"><span class="brand-symbol"><img src="assets/1d758cd814-1E0PsKb.png" alt="Chamuel" class="chamuel-logo"></span><span class="brand-name">Chamuel<small>Apoyo educativo y psicopedagógico</small></span></a>
                 </div>
-                <nav class="navigation-menu">
-                <ul id="menu-main-menu" class="main-menu"><li class="menu-item"><a href="#inicio">Inicio</a></li><li class="menu-item"><a href="#nosotros">Nosotros</a></li><li class="menu-item"><a href="#servicios">Servicios</a></li><li class="menu-item"><a href="#profesional">Profesional</a></li><li class="menu-item"><a href="#contacto">Contacto</a></li></ul>                </nav>
+                <nav class="chamuel-header-nav" aria-label="Navegación principal">
+                    <button type="button" class="header-nav-btn active" data-scroll-to="#inicio">Inicio</button>
+                    <button type="button" class="header-nav-btn" data-scroll-to="#nosotros">Nosotros</button>
+                    <button type="button" class="header-nav-btn" data-scroll-to="#servicios">Servicios</button>
+                    <button type="button" class="header-nav-btn" data-scroll-to="#profesional">Profesional</button>
+                    <button type="button" class="header-nav-btn" data-scroll-to="#contacto">Contacto</button>
+                </nav>
                 <div class="header-right">
-                    <a href="#contacto" class="default-btn d-none d-lg-block">Agendar consulta<span class="blob-dl-btn__inner" aria-hidden="true"><span class="blob-dl-btn__blobs"><span></span><span></span><span></span><span></span></span></span></a><button class="sidebar-trigger svg-bar-icon-anim menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="chamuel-menu"><svg width="117" height="83" viewBox="0 0 117 83" xmlns="http://www.w3.org/2000/svg"><g><path d="M0.864068 77.0341C0.571799 78.923 2.12079 81.0778 4.24573 81.7405C5.35826 82.0874 6.51143 82.2871 7.67579 82.3345C8.64785 82.3701 9.61992 82.4129 10.592 82.457C12.8673 82.5575 15.1971 82.6613 17.5262 82.6613C18.462 82.6613 19.3976 82.6444 20.3282 82.6036C24.8587 82.409 29.4586 82.1185 33.9068 81.8378C39.235 81.5025 44.7439 81.1562 50.1635 80.9682C64.2728 80.4799 78.4358 78.5379 92.1329 76.66L93.9098 76.4162C97.1208 75.9772 100.441 75.522 103.679 74.8794C103.822 74.8515 103.97 74.8262 104.12 74.8009C105.421 74.5791 107.386 74.2452 107.892 71.2566C107.919 71.0944 107.886 70.9284 107.799 70.7897C107.711 70.6509 107.576 70.5491 107.418 70.5044C107.077 70.4071 106.762 70.3001 106.464 70.1983C105.852 69.9577 105.21 69.8008 104.556 69.7327L102.492 69.6108C97.73 69.3294 92.8062 69.0389 87.9536 68.9092C74.2028 68.5331 60.4414 68.891 46.7284 69.9811C37.8942 70.6944 28.8994 71.2779 20.2 71.8427C15.7933 72.1287 11.3864 72.4205 6.97967 72.7181C6.03861 72.7596 5.10674 72.9204 4.20618 73.1967C3.3401 73.4483 2.56472 73.9437 1.9722 74.6245C1.37968 75.3047 0.994867 76.1412 0.864068 77.0341Z" fill="black"></path><path d="M3.22255 43.1126C3.20108 43.8194 3.38029 44.5179 3.73928 45.1271C4.09827 45.7363 4.62228 46.2312 5.25086 46.5545C6.31856 47.0793 7.47899 47.3888 8.66608 47.4655C10.2402 47.5621 11.892 47.6451 13.5691 47.6451C14.3895 47.6451 15.2154 47.625 16.041 47.5771C20.9662 47.2943 25.9651 46.9598 30.8021 46.6369C39.8572 46.0325 49.2203 45.4049 58.4348 45.0891C70.9781 44.6572 83.5891 43.1159 95.7846 41.6251C98.9821 41.236 102.177 40.8518 105.37 40.4728C105.625 40.4436 105.882 40.4197 106.144 40.3957C108.013 40.2238 110.34 40.0099 112.715 37.4647C112.789 37.3858 112.842 37.2902 112.87 37.1862C112.899 37.0823 112.902 36.9732 112.879 36.8679C112.856 36.7626 112.807 36.6644 112.738 36.5818C112.669 36.4992 112.581 36.4346 112.481 36.3935C108.143 34.6077 104.391 34.3631 100.611 34.2535L97.3114 34.1582C86.8623 33.8541 76.0594 33.5396 65.3902 33.9501C47.4562 34.6413 29.8936 36.3877 10.44 38.4303C8.61126 38.63 6.82885 39.1354 5.16732 39.9255C4.57565 40.219 4.07899 40.674 3.73485 41.2381C3.39071 41.802 3.21316 42.4519 3.22255 43.1126Z" fill="black"></path><path d="M6.91381 9.30705C8.17858 9.92436 9.5466 10.3015 10.9489 10.4192C11.7179 10.4762 12.4874 10.5351 13.2572 10.5956C16.8105 10.8705 20.4753 11.1544 24.1056 11.1544C24.3862 11.1544 24.6674 11.1545 24.948 11.1493C31.8108 11.0631 38.7858 10.9028 45.5314 10.7479C54.4809 10.543 63.7355 10.3309 72.8353 10.2887C85.861 10.2284 98.9463 8.7383 111.602 7.29747L112.008 7.25156C112.805 7.0986 113.568 6.79844 114.256 6.36646C114.716 6.12265 115.239 5.84767 115.88 5.55069C115.995 5.49796 116.092 5.41372 116.161 5.30784C116.23 5.20196 116.267 5.07879 116.268 4.95259C116.27 4.82639 116.236 4.70237 116.169 4.59497C116.103 4.48757 116.007 4.4011 115.894 4.34579C115.233 4.02157 114.677 3.71035 114.186 3.43282C113.417 2.91444 112.552 2.55407 111.642 2.37262L109.155 2.07309C104.324 1.4895 99.3293 0.883162 94.3867 0.676958C67.7566 -0.435762 40.7162 0.608936 14.5669 1.61985L9.874 1.8008C9.16426 1.82876 8.45918 1.92888 7.76973 2.09969C6.98105 2.24831 6.26047 2.6449 5.71265 3.23176C5.16483 3.81863 4.81826 4.56515 4.72381 5.36261C4.6023 6.16975 4.75139 6.99446 5.14751 7.708C5.54363 8.42154 6.16476 8.9838 6.91381 9.30705Z" fill="black"></path></g></svg></button>                    <button type="button" class="mobile-toggle menu-toggle" aria-label="Abrir menú" aria-controls="chamuel-menu" aria-expanded="false">☰</button>
-                                    </div>
+                    <button type="button" data-scroll-to="#contacto" class="default-btn header-cta-btn">Agendar consulta<span class="blob-dl-btn__inner" aria-hidden="true"><span class="blob-dl-btn__blobs"><span></span><span></span><span></span><span></span></span></span></button>
+                    <button type="button" class="chamuel-hamburger-btn" id="chamuel-menu-trigger" aria-label="Abrir menú de opciones" aria-expanded="false" aria-controls="chamuel-drawer">
+                        <span class="hamburger-line line-1"></span>
+                        <span class="hamburger-line line-2"></span>
+                        <span class="hamburger-line line-3"></span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
-</header><nav id="chamuel-menu" hidden="" aria-label="Navegación móvil"><a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a href="#servicios">Servicios</a><a href="#profesional">Profesional</a><a href="#contacto">Contacto</a><a href="#contacto">Solicitar consulta</a></nav>
+</header>
 <!--/.main-header-->
 
+<div id="chamuel-drawer" class="chamuel-drawer" aria-hidden="true">
+    <div class="drawer-overlay" id="chamuel-drawer-overlay"></div>
+    <div class="popup-sidebox" role="dialog" aria-modal="true" aria-label="Información de contacto de Chamuel">
+        <button type="button" class="sidebox-close" id="chamuel-drawer-close" aria-label="Cerrar menú">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+        <div class="sidebox-content">
+            <div class="site-logo sidebox-logo">
+                <a href="#inicio" data-scroll-to="#inicio" class="sidebox-brand-link">
+                    <img src="assets/1d758cd814-1E0PsKb.png" alt="Chamuel Psicopedagogía" class="sidebox-chamuel-logo">
+                    <div class="sidebox-brand-info">
+                        <span class="brand-name">Chamuel</span>
+                        <small>Apoyo educativo y psicopedagógico</small>
+                    </div>
+                </a>
+            </div>
+            <p class="sidebox-desc">Chamuel es un centro de apoyo educativo y psicopedagógico donde acompañamos a cada niño y niña a potenciar sus habilidades, superar retos de aprendizaje y crecer con confianza.</p>
+            <ul class="sidebox-list">
+                <li class="highlight">
+                    <span class="sidebox-label">Llámanos o escríbenos:</span>
+                    <span class="sidebox-phone-val">+506 6483 6199</span>
+                </li>
+                <li>
+                    <span class="sidebox-label">Puedes encontrarnos en:</span>
+                    <div class="sidebox-addr-val">El Rodeo, San Isidro de Alajuela, Costa Rica. Residencial Las Brisas, casa 6.</div>
+                </li>
+                <li>
+                    <span class="sidebox-label">Envíanos un correo:</span>
+                    <a href="mailto:ceneducaypsico@gmail.com" class="sidebox-email-val">ceneducaypsico@gmail.com</a>
+                </li>
+            </ul>
+            <div class="side-socials">
+                <a href="https://www.facebook.com/people/Centro-de-Apoyo-Educativo-y-Psicopedag%C3%B3gico-Chamuel/61557124973182/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Chamuel">
+                    <i class="lab la-facebook-f"></i>
+                </a>
+                <a href="https://wa.me/50664836199?text=Hola,%20quisiera%20más%20información%20sobre%20Chamuel" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Chamuel">
+                    <i class="lab la-whatsapp"></i>
+                </a>
+                <a href="mailto:ceneducaypsico@gmail.com" aria-label="Enviar correo electrónico">
+                    <i class="la la-envelope"></i>
+                </a>
+                <a href="tel:+50664836199" aria-label="Llamar a Chamuel">
+                    <i class="la la-phone"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 <!--/.popup-sidebox-->
 		<div data-elementor-type="wp-page" data-elementor-id="103" class="elementor elementor-103">
 				<div class="elementor-element elementor-element-8e67ac6 adv-bg-yes e-flex e-con-boxed adv-bg-pos-top-left e-con e-parent" data-id="8e67ac6" data-element_type="container" data-e-type="container" id="inicio"><div class="adv-bg" aria-hidden="true"></div>
@@ -146,7 +208,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="elementor-element elementor-element-d3d31a1 animated-slow elementor-widget elementor-widget-kidden-button" data-id="d3d31a1" data-element_type="widget" data-e-type="widget" data-widget_type="kidden-button.default" data-reveal="fadeInUp" data-delay="200" data-duration="2000">
 				<div class="elementor-widget-container">
 							<div id="dl-at-d3d31a1" class="dl-button-wrap">
-		<a href="#contacto" class="default-btn">¡Conversemos!<span class="blob-dl-btn__inner"><span class="blob-dl-btn__blobs"><span></span><span></span><span></span><span></span></span></span></a>		</div>
+		<a href="https://wa.me/50664836199?text=Hola,%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20en%20Chamuel" target="_blank" rel="noopener noreferrer" class="default-btn">¡Conversemos!<span class="blob-dl-btn__inner"><span class="blob-dl-btn__blobs"><span></span><span></span><span></span><span></span></span></span></a>		</div>
         				</div>
 				</div>
 				</div>
@@ -223,7 +285,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="elementor-element elementor-element-d86c853 elementor-widget elementor-widget-kidden-button" data-id="d86c853" data-element_type="widget" data-e-type="widget" data-widget_type="kidden-button.default">
 				<div class="elementor-widget-container">
 							<div id="dl-at-d86c853" class="dl-button-wrap">
-		<a href="#servicios" class="default-btn">Conoce nuestros servicios<span class="blob-dl-btn__inner"><span class="blob-dl-btn__blobs"><span></span><span></span><span></span><span></span></span></span></a>		</div>
+		<button type="button" data-scroll-to="#servicios" class="default-btn">Conoce nuestros servicios<span class="blob-dl-btn__inner"><span class="blob-dl-btn__blobs"><span></span><span></span><span></span><span></span></span></span></button>		</div>
         				</div>
 				</div>
 				<div class="elementor-element elementor-element-342965f elementor-position-inline-start elementor-mobile-position-inline-start elementor-view-default elementor-widget elementor-widget-icon-box" data-id="342965f" data-element_type="widget" data-e-type="widget" data-widget_type="icon-box.default">
@@ -231,15 +293,17 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 							<div class="elementor-icon-box-wrapper">
 
 						<div class="elementor-icon-box-icon">
-				<span class="elementor-icon">
-				<i aria-hidden="true" class="la la-volume-control-phone"></i>				</span>
+				<a href="https://wa.me/50664836199?text=Hola,%20quisiera%20más%20información%20sobre%20Chamuel" target="_blank" rel="noopener noreferrer" class="elementor-icon phone-icon-link" aria-label="Contactar al +506 6483 6199 por WhatsApp">
+				<i aria-hidden="true" class="la la-volume-control-phone"></i>				</a>
 			</div>
 			
 						<div class="elementor-icon-box-content">
 
 									<h3 class="elementor-icon-box-title">Hablemos de tu consulta</h3>
 				
-									<p class="elementor-icon-box-description"><a href="tel:+50664836199">+506 6483 6199</a></p>
+									<p class="elementor-icon-box-description">
+										<a href="https://wa.me/50664836199?text=Hola,%20quisiera%20más%20información%20sobre%20Chamuel" target="_blank" rel="noopener noreferrer" class="phone-link-active" title="Escríbenos por WhatsApp o llámanos">+506 6483 6199</a>
+									</p>
 				
 			</div>
 			
@@ -252,10 +316,6 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				</div>
 		<div class="elementor-element elementor-element-091f484 e-flex e-con-boxed e-con e-parent" data-id="091f484" data-element_type="container" data-e-type="container" id="servicios">
 					<div class="e-con-inner">
-				<div class="elementor-shape elementor-shape-bottom" aria-hidden="true" data-negative="false">
-			<svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 283.5 27.8" preserveAspectRatio="xMidYMax slice">
-	<path class="elementor-shape-fill" d="M0 0v1.4c.6.7 1.1 1.4 1.4 2 2 3.8 2.2 6.6 1.8 10.8-.3 3.3-2.4 9.4 0 12.3 1.7 2 3.7 1.4 4.6-.9 1.4-3.8-.7-8.2-.6-12 .1-3.7 3.2-5.5 6.9-4.9 4 .6 4.8 4 4.9 7.4.1 1.8-1.1 7 0 8.5.6.8 1.6 1.2 2.4.5 1.4-1.1.1-5.4.1-6.9.1-3.7.3-8.6 4.1-10.5 5-2.5 6.2 1.6 5.4 5.6-.4 1.7-1 9.2 2.9 6.3 1.5-1.1.7-3.5.5-4.9-.4-2.4-.4-4.3 1-6.5.9-1.4 2.4-3.1 4.2-3 2.4.1 2.7 2.2 4 3.7 1.5 1.8 1.8 2.2 3 .1 1.1-1.9 1.2-2.8 3.6-3.3 1.3-.3 4.8-1.4 5.9-.5 1.5 1.1.6 2.8.4 4.3-.2 1.1-.6 4 1.8 3.4 1.7-.4-.3-4.1.6-5.6 1.3-2.2 5.8-1.4 7 .5 1.3 2.1.5 5.8.1 8.1s-1.2 5-.6 7.4c1.3 5.1 4.4.9 4.3-2.4-.1-4.4-2-8.8-.5-13 .9-2.4 4.6-6.6 7.7-4.5 2.7 1.8.5 7.8.2 10.3-.2 1.7-.8 4.6.2 6.2.9 1.4 2 1.5 2.6-.3.5-1.5-.9-4.5-1-6.1-.2-1.7-.4-3.7.2-5.4 1.8-5.6 3.5 2.4 6.3.6 1.4-.9 4.3-9.4 6.1-3.1.6 2.2-1.3 7.8.7 8.9 4.2 2.3 1.5-7.1 2.2-8 3.1-4 4.7 3.8 6.1 4.1 3.1.7 2.8-7.9 8.1-4.5 1.7 1.1 2.9 3.3 3.2 5.2.4 2.2-1 4.5-.6 6.6 1 4.3 4.4 1.5 4.4-1.7 0-2.7-3-8.3 1.4-9.1 4.4-.9 7.3 3.5 7.8 6.9.3 2-1.5 10.9 1.3 11.3 4.1.6-3.2-15.7 4.8-15.8 4.7-.1 2.8 4.1 3.9 6.6 1 2.4 2.1 1 2.3-.8.3-1.9-.9-3.2 1.3-4.3 5.9-2.9 5.9 5.4 5.5 8.5-.3 2-1.7 8.4 2 8.1 6.9-.5-2.8-16.9 4.8-18.7 4.7-1.2 6.1 3.6 6.3 7.1.1 1.7-1.2 8.1.6 9.1 3.5 2 1.9-7 2-8.4.2-4 1.2-9.6 6.4-9.8 4.7-.2 3.2 4.6 2.7 7.5-.4 2.2 1.3 8.6 3.8 4.4 1.1-1.9-.3-4.1-.3-6 0-1.7.4-3.2 1.3-4.6 1-1.6 2.9-3.5 5.1-2.9 2.5.6 2.3 4.1 4.1 4.9 1.9.8 1.6-.9 2.3-2.1 1.2-2.1 2.1-2.1 4.4-2.4 1.4-.2 3.6-1.5 4.9-.5 2.3 1.7-.7 4.4.1 6.5.6 1.5 2.1 1.7 2.8.3.7-1.4-1.1-3.4-.3-4.8 1.4-2.5 6.2-1.2 7.2 1 2.3 4.8-3.3 12-.2 16.3 3 4.1 3.9-2.8 3.8-4.8-.4-4.3-2.1-8.9 0-13.1 1.3-2.5 5.9-5.7 7.9-2.4 2 3.2-1.3 9.8-.8 13.4.5 4.4 3.5 3.3 2.7-.8-.4-1.9-2.4-10 .6-11.1 3.7-1.4 2.8 7.2 6.5.4 2.2-4.1 4.9-3.1 5.2 1.2.1 1.5-.6 3.1-.4 4.6.2 1.9 1.8 3.7 3.3 1.3 1-1.6-2.6-10.4 2.9-7.3 2.6 1.5 1.6 6.5 4.8 2.7 1.3-1.5 1.7-3.6 4-3.7 2.2-.1 4 2.3 4.8 4.1 1.3 2.9-1.5 8.4.9 10.3 4.2 3.3 3-5.5 2.7-6.9-.6-3.9 1-7.2 5.5-5 4.1 2.1 4.3 7.7 4.1 11.6 0 .8-.6 9.5 2.5 5.2 1.2-1.7-.1-7.7.1-9.6.3-2.9 1.2-5.5 4.3-6.2 4.5-1 7.7 1.5 7.4 5.8-.2 3.5-1.8 7.7-.5 11.1 1 2.7 3.6 2.8 5 .2 1.6-3.1 0-8.3-.4-11.6-.4-4.2-.2-7 1.8-10.8 0 0-.1.1-.1.2-.2.4-.3.7-.4.8v.1c-.1.2-.1.2 0 0v-.1l.4-.8c0-.1.1-.1.1-.2.2-.4.5-.8.8-1.2V0H0zM282.7 3.4z"></path>
-</svg>		</div>
 				<div class="elementor-element elementor-element-2e2c84b animated-slow elementor-widget elementor-widget-kidden-section-heading" data-id="2e2c84b" data-element_type="widget" data-e-type="widget" data-widget_type="kidden-section-heading.default" data-reveal="fadeInUp" data-delay="0" data-duration="2000">
 				<div class="elementor-widget-container">
 					        <div class="el-section-heading">
@@ -279,7 +339,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
                     <div class="service-icon">
             <i aria-hidden="true" class="kg kg-educator"></i>        </div>
                 <div class="service-content">
-        <h3 class="service-heading">Tutorías <br>académicas</h3><p class="service-desc">Refuerzo de contenidos escolares y hábitos de estudio para aprender con mayor seguridad.</p><a href="#servicios" class="default-btn" rel="nofollow" aria-label="Solicitar información">Conoce nuestros servicios<i class="la la-arrow-right"></i></a>        </div>
+        <h3 class="service-heading">Tutorías <br>académicas</h3><p class="service-desc">Refuerzo de contenidos escolares y hábitos de estudio para aprender con mayor seguridad.</p><a href="https://wa.me/50664836199?text=Hola,%20me%20gustar%C3%ADa%20informaci%C3%B3n%20sobre%20Tutor%C3%ADas%20Acad%C3%A9micas" target="_blank" rel="noopener noreferrer" aria-label="Solicitar información de Tutorías"><i class="la la-arrow-right"></i></a>        </div>
                 </div>
         				</div>
 				</div>
@@ -295,7 +355,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
                     <div class="service-icon">
             <i aria-hidden="true" class="kg kg-paint"></i>        </div>
                 <div class="service-content">
-        <h3 class="service-heading">Lectura y <br>escritura</h3><p class="service-desc">Acompañamiento progresivo para fortalecer la lectura, la comprensión y la expresión escrita.</p><a href="#contacto" rel="nofollow" aria-label="Solicitar información"><i class="la la-arrow-right"></i></a>        </div>
+        <h3 class="service-heading">Lectura y <br>escritura</h3><p class="service-desc">Acompañamiento progresivo para fortalecer la lectura, la comprensión y la expresión escrita.</p><a href="https://wa.me/50664836199?text=Hola,%20me%20gustar%C3%ADa%20informaci%C3%B3n%20sobre%20Lectura%20y%20Escritura" target="_blank" rel="noopener noreferrer" aria-label="Solicitar información de Lectura y Escritura"><i class="la la-arrow-right"></i></a>        </div>
                 </div>
         				</div>
 				</div>
@@ -311,7 +371,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
                     <div class="service-icon">
             <i aria-hidden="true" class="kg kg-book"></i>        </div>
                 <div class="service-content">
-        <h3 class="service-heading">Apoyo <br>psicopedagógico</h3><p class="service-desc">Atención a las dificultades de aprendizaje desde una mirada individual y cercana.</p><a href="#contacto" rel="nofollow" aria-label="Solicitar información"><i class="la la-arrow-right"></i></a>        </div>
+        <h3 class="service-heading">Apoyo <br>psicopedagógico</h3><p class="service-desc">Atención a las dificultades de aprendizaje desde una mirada individual y cercana.</p><a href="https://wa.me/50664836199?text=Hola,%20me%20gustar%C3%ADa%20informaci%C3%B3n%20sobre%20Apoyo%20Psicopedag%C3%B3gico" target="_blank" rel="noopener noreferrer" aria-label="Solicitar información de Apoyo Psicopedagógico"><i class="la la-arrow-right"></i></a>        </div>
                 </div>
         				</div>
 				</div>
@@ -320,12 +380,9 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 					</div>
 				</div>
 		
-		<div class="elementor-element elementor-element-1a6ec2c e-flex e-con-boxed e-con e-parent" data-id="1a6ec2c" data-element_type="container" data-e-type="container" id="enfoque">
+		<div class="elementor-element elementor-element-1a6ec2c e-flex e-con-boxed e-con e-parent" data-id="1a6ec2c" data-element_type="container" data-e-type="container" id="nosotros">
+					<span id="enfoque" style="display:block;position:relative;top:-90px;visibility:hidden;"></span>
 					<div class="e-con-inner">
-				<div class="elementor-shape elementor-shape-bottom" aria-hidden="true" data-negative="false">
-			<svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 283.5 27.8" preserveAspectRatio="xMidYMax slice">
-	<path class="elementor-shape-fill" d="M0 0v1.4c.6.7 1.1 1.4 1.4 2 2 3.8 2.2 6.6 1.8 10.8-.3 3.3-2.4 9.4 0 12.3 1.7 2 3.7 1.4 4.6-.9 1.4-3.8-.7-8.2-.6-12 .1-3.7 3.2-5.5 6.9-4.9 4 .6 4.8 4 4.9 7.4.1 1.8-1.1 7 0 8.5.6.8 1.6 1.2 2.4.5 1.4-1.1.1-5.4.1-6.9.1-3.7.3-8.6 4.1-10.5 5-2.5 6.2 1.6 5.4 5.6-.4 1.7-1 9.2 2.9 6.3 1.5-1.1.7-3.5.5-4.9-.4-2.4-.4-4.3 1-6.5.9-1.4 2.4-3.1 4.2-3 2.4.1 2.7 2.2 4 3.7 1.5 1.8 1.8 2.2 3 .1 1.1-1.9 1.2-2.8 3.6-3.3 1.3-.3 4.8-1.4 5.9-.5 1.5 1.1.6 2.8.4 4.3-.2 1.1-.6 4 1.8 3.4 1.7-.4-.3-4.1.6-5.6 1.3-2.2 5.8-1.4 7 .5 1.3 2.1.5 5.8.1 8.1s-1.2 5-.6 7.4c1.3 5.1 4.4.9 4.3-2.4-.1-4.4-2-8.8-.5-13 .9-2.4 4.6-6.6 7.7-4.5 2.7 1.8.5 7.8.2 10.3-.2 1.7-.8 4.6.2 6.2.9 1.4 2 1.5 2.6-.3.5-1.5-.9-4.5-1-6.1-.2-1.7-.4-3.7.2-5.4 1.8-5.6 3.5 2.4 6.3.6 1.4-.9 4.3-9.4 6.1-3.1.6 2.2-1.3 7.8.7 8.9 4.2 2.3 1.5-7.1 2.2-8 3.1-4 4.7 3.8 6.1 4.1 3.1.7 2.8-7.9 8.1-4.5 1.7 1.1 2.9 3.3 3.2 5.2.4 2.2-1 4.5-.6 6.6 1 4.3 4.4 1.5 4.4-1.7 0-2.7-3-8.3 1.4-9.1 4.4-.9 7.3 3.5 7.8 6.9.3 2-1.5 10.9 1.3 11.3 4.1.6-3.2-15.7 4.8-15.8 4.7-.1 2.8 4.1 3.9 6.6 1 2.4 2.1 1 2.3-.8.3-1.9-.9-3.2 1.3-4.3 5.9-2.9 5.9 5.4 5.5 8.5-.3 2-1.7 8.4 2 8.1 6.9-.5-2.8-16.9 4.8-18.7 4.7-1.2 6.1 3.6 6.3 7.1.1 1.7-1.2 8.1.6 9.1 3.5 2 1.9-7 2-8.4.2-4 1.2-9.6 6.4-9.8 4.7-.2 3.2 4.6 2.7 7.5-.4 2.2 1.3 8.6 3.8 4.4 1.1-1.9-.3-4.1-.3-6 0-1.7.4-3.2 1.3-4.6 1-1.6 2.9-3.5 5.1-2.9 2.5.6 2.3 4.1 4.1 4.9 1.9.8 1.6-.9 2.3-2.1 1.2-2.1 2.1-2.1 4.4-2.4 1.4-.2 3.6-1.5 4.9-.5 2.3 1.7-.7 4.4.1 6.5.6 1.5 2.1 1.7 2.8.3.7-1.4-1.1-3.4-.3-4.8 1.4-2.5 6.2-1.2 7.2 1 2.3 4.8-3.3 12-.2 16.3 3 4.1 3.9-2.8 3.8-4.8-.4-4.3-2.1-8.9 0-13.1 1.3-2.5 5.9-5.7 7.9-2.4 2 3.2-1.3 9.8-.8 13.4.5 4.4 3.5 3.3 2.7-.8-.4-1.9-2.4-10 .6-11.1 3.7-1.4 2.8 7.2 6.5.4 2.2-4.1 4.9-3.1 5.2 1.2.1 1.5-.6 3.1-.4 4.6.2 1.9 1.8 3.7 3.3 1.3 1-1.6-2.6-10.4 2.9-7.3 2.6 1.5 1.6 6.5 4.8 2.7 1.3-1.5 1.7-3.6 4-3.7 2.2-.1 4 2.3 4.8 4.1 1.3 2.9-1.5 8.4.9 10.3 4.2 3.3 3-5.5 2.7-6.9-.6-3.9 1-7.2 5.5-5 4.1 2.1 4.3 7.7 4.1 11.6 0 .8-.6 9.5 2.5 5.2 1.2-1.7-.1-7.7.1-9.6.3-2.9 1.2-5.5 4.3-6.2 4.5-1 7.7 1.5 7.4 5.8-.2 3.5-1.8 7.7-.5 11.1 1 2.7 3.6 2.8 5 .2 1.6-3.1 0-8.3-.4-11.6-.4-4.2-.2-7 1.8-10.8 0 0-.1.1-.1.2-.2.4-.3.7-.4.8v.1c-.1.2-.1.2 0 0v-.1l.4-.8c0-.1.1-.1.1-.2.2-.4.5-.8.8-1.2V0H0zM282.7 3.4z"></path>
-</svg>		</div>
 		<div class="elementor-element elementor-element-a7e392d e-con-full e-flex e-con e-child" data-id="a7e392d" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-1a8dbf4 elementor-widget elementor-widget-kidden-multiple-image" data-id="1a8dbf4" data-element_type="widget" data-e-type="widget" data-widget_type="kidden-multiple-image.default">
 				<div class="elementor-widget-container">
@@ -371,7 +428,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="elementor-element elementor-element-a0cf5f0 animated-slow elementor-widget elementor-widget-kidden-button" data-id="a0cf5f0" data-element_type="widget" data-e-type="widget" data-widget_type="kidden-button.default" data-reveal="fadeInUp" data-delay="400" data-duration="2000">
 				<div class="elementor-widget-container">
 							<div id="dl-at-a0cf5f0" class="dl-button-wrap">
-		<a href="#contacto" class="default-btn">Consultar disponibilidad<span class="blob-dl-btn__inner"><span class="blob-dl-btn__blobs"><span></span><span></span><span></span><span></span></span></span></a>		</div>
+		<button type="button" data-scroll-to="#contacto" class="default-btn">Consultar disponibilidad<span class="blob-dl-btn__inner"><span class="blob-dl-btn__blobs"><span></span><span></span><span></span><span></span></span></span></button>		</div>
         				</div>
 				</div>
 				</div>
@@ -401,7 +458,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		
 		
 				</div>
-					<div class="professional"><div class="professional-visual" data-reveal="fadeInUp" data-delay="0" data-duration="2000"><img src="assets/cinthia-chamuel.png" alt="MsC. Cinthia Víquez Vargas, docente de Educación Especial y psicopedagoga" loading="lazy"></div><div class="professional-copy" data-reveal="fadeInUp" data-delay="200" data-duration="2000"><span class="professional-tag">Educación Especial · Psicopedagogía</span><h3>MsC. Cinthia <br>Víquez Vargas</h3><p>Un acompañamiento profesional empieza por escuchar. Cinthia trabaja desde la observación individualizada, la empatía y el respeto por las necesidades de cada persona.</p><p>Su labor se enfoca en la evaluación e intervención de los procesos de aprendizaje en distintas etapas de la vida.</p><a class="default-btn" href="#contacto">Conversemos sobre tu consulta<span class="blob-dl-btn__inner" aria-hidden="true"><span class="blob-dl-btn__blobs"><span></span><span></span><span></span><span></span></span></span></a></div></div></div>
+					<div class="professional"><div class="professional-visual" data-reveal="fadeInUp" data-delay="0" data-duration="2000"><img src="assets/cinthia-chamuel.png" alt="MsC. Cinthia Víquez Vargas, docente de Educación Especial y psicopedagoga" loading="lazy"></div><div class="professional-copy" data-reveal="fadeInUp" data-delay="200" data-duration="2000"><span class="professional-tag">Educación Especial · Psicopedagogía</span><h3>MsC. Cinthia <br>Víquez Vargas</h3><p>Un acompañamiento profesional empieza por escuchar. Cinthia trabaja desde la observación individualizada, la empatía y el respeto por las necesidades de cada persona.</p><p>Su labor se enfoca en la evaluación e intervención de los procesos de aprendizaje en distintas etapas de la vida.</p><button type="button" class="default-btn" data-scroll-to="#contacto">Conversemos sobre tu consulta<span class="blob-dl-btn__inner" aria-hidden="true"><span class="blob-dl-btn__blobs"><span></span><span></span><span></span><span></span></span></span></button></div></div></div>
 				</div>
 		<div class="elementor-element elementor-element-2261ad3 e-flex e-con-boxed e-con e-parent chamuel-testimonials" data-id="2261ad3" data-element_type="container" data-e-type="container" id="opiniones">
 					<div class="e-con-inner">
@@ -526,7 +583,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				</div>
 				<div class="elementor-element elementor-element-79e0773 elementor-widget elementor-widget-kidden-testimonials" data-id="79e0773" data-element_type="widget" data-e-type="widget" data-widget_type="kidden-testimonials.default">
 				<div class="elementor-widget-container">
-							<div class="faq-grid"><details open="" data-reveal="fadeInUp" data-delay="0" data-duration="2000"><summary>¿A quiénes acompaña Chamuel?</summary><p>Brindamos apoyo educativo y psicopedagógico a niños y adultos. Escríbenos para conversar sobre las necesidades de la persona que requiere acompañamiento.</p></details><details data-reveal="fadeInUp" data-delay="200" data-duration="2000"><summary>¿Dónde se encuentra el centro?</summary><p>En El Rodeo, San Isidro de Alajuela. Del Liceo Otilio Ulate Blanco, 800 metros al oeste, Residencial Las Brisas, casa 6.</p></details><details data-reveal="fadeInUp" data-delay="0" data-duration="2000"><summary>¿Cómo consulto por una cita?</summary><p>Puedes escribirnos al WhatsApp +506 6483 6199 o a ceneducaypsico@gmail.com. Te orientaremos sobre el servicio y la disponibilidad.</p></details><details data-reveal="fadeInUp" data-delay="200" data-duration="2000"><summary>¿Las clases son presenciales?</summary><p>Brindamos atención presencial. Escríbenos por WhatsApp para consultar los horarios y las opciones disponibles para ti.</p></details></div>
+							<div class="faq-grid"><details data-reveal="fadeInUp" data-delay="0" data-duration="2000"><summary>¿A quiénes acompaña Chamuel?</summary><p>Brindamos apoyo educativo y psicopedagógico a niños y adultos. Escríbenos para conversar sobre las necesidades de la persona que requiere acompañamiento.</p></details><details data-reveal="fadeInUp" data-delay="200" data-duration="2000"><summary>¿Dónde se encuentra el centro?</summary><p>En El Rodeo, San Isidro de Alajuela. Del Liceo Otilio Ulate Blanco, 800 metros al oeste, Residencial Las Brisas, casa 6.</p></details><details data-reveal="fadeInUp" data-delay="0" data-duration="2000"><summary>¿Cómo consulto por una cita?</summary><p>Puedes escribirnos al WhatsApp +506 6483 6199 o a ceneducaypsico@gmail.com. Te orientaremos sobre el servicio y la disponibilidad.</p></details><details data-reveal="fadeInUp" data-delay="200" data-duration="2000"><summary>¿Las clases son presenciales?</summary><p>Brindamos atención presencial. Escríbenos por WhatsApp para consultar los horarios y las opciones disponibles para ti.</p></details></div>
 						</div>
 				</div>
 					</div>
@@ -579,15 +636,15 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
             <div class="footer-widget-items widget-col-4">
                                     <div class="footer-widget-item">
                         <section id="kidden_about_widget-2" class="widget widget_kidden_about_widget">        <div class="dl-widget-about">
-            <div class="widget-brand"><a href="#inicio"><span class="footer-brand">Chamuel<span>Aprender con amor.</span></span></a></div>                            <p>Apoyo educativo y psicopedagógico con un trato cercano, profesional y respetuoso. San Isidro de Alajuela, Costa Rica.</p>
-            <ul class="wt-social-icons left"><li class="facebook"><a href="https://www.facebook.com/people/Centro-de-Apoyo-Educativo-y-Psicopedag%C3%B3gico-Chamuel/61557124973182/" class="blob-effect" aria-label="Chamuel en Facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"></path></svg><span class="blob-dl-btn__inner"><span class="blob-dl-btn__blobs"><span></span><span></span><span></span><span></span></span></span></a></li></ul>        </div>
+            <div class="widget-brand"><a href="#"><span class="footer-brand">Chamuel<span>Aprender con amor.</span></span></a></div>                            <p>Apoyo educativo y psicopedagógico con un trato cercano, profesional y respetuoso. San Isidro de Alajuela, Costa Rica.</p>
+            <ul class="wt-social-icons left"><li class="facebook"><a href="https://www.facebook.com/people/Centro-de-Apoyo-Educativo-y-Psicopedag%C3%B3gico-Chamuel/61557124973182/" class="blob-effect" aria-label="Chamuel en Facebook" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"></path></svg><span class="blob-dl-btn__inner"><span class="blob-dl-btn__blobs"><span></span><span></span><span></span><span></span></span></span></a></li></ul>        </div>
         </section>                    </div>
                                     <div class="footer-widget-item">
-                        <section id="nav_menu-2" class="widget widget_nav_menu"><h2 class="widget-title">Conoce Chamuel</h2><div class="menu-usefull-links-container"><ul id="menu-usefull-links" class="menu"><li><a href="#nosotros">Nosotros</a></li><li><a href="#servicios">Servicios</a></li><li><a href="#profesional">Profesional</a></li><li><a href="#contacto">Contacto</a></li><li><a href="#preguntas">Preguntas frecuentes</a></li></ul></div></section>                    </div>
+                        <section class="widget"><h2 class="widget-title">Atención personalizada</h2><p style="color:#555;line-height:1.7;">Acompañamiento psicopedagógico individualizado y respetuoso en un espacio cálido y seguro para cada etapa del aprendizaje.</p></section>                    </div>
                                     <div class="footer-widget-item">
-                        <section id="kidden_contact_widget-2" class="widget widget_kidden_contact_widget"><h2 class="widget-title">Contacto</h2><ul class="contact-info-list"><li><div class="label">Dirección:</div><div class="list-text">El Rodeo, San Isidro de Alajuela. Residencial Las Brisas, casa 6.</div></li><li><div class="label">Teléfono:</div><a href="tel:+50664836199">+506 6483 6199</a></li><li><a href="mailto:ceneducaypsico@gmail.com">ceneducaypsico@gmail.com</a></li></ul></section>                    </div>
+                        <section id="kidden_contact_widget-2" class="widget widget_kidden_contact_widget"><h2 class="widget-title">Contacto</h2><ul class="contact-info-list"><li><div class="label">Dirección:</div><div class="list-text">El Rodeo, San Isidro de Alajuela. Residencial Las Brisas, casa 6.</div></li><li><div class="label">Teléfono:</div><a href="https://wa.me/50664836199?text=Hola,%20quisiera%20más%20información%20sobre%20Chamuel" target="_blank" rel="noopener noreferrer">+506 6483 6199</a></li><li><a href="mailto:ceneducaypsico@gmail.com">ceneducaypsico@gmail.com</a></li></ul></section>                    </div>
                                     <div class="footer-widget-item">
-                        <section id="kidden_mc_widget-2" class="widget widget_kidden_mc_widget"><h2 class="widget-title">Demos el primer paso</h2><p>Consulta disponibilidad y recibe información sobre nuestros servicios.</p><a class="default-btn" href="#contacto">Hablemos por WhatsApp<span class="blob-dl-btn__inner" aria-hidden="true"><span class="blob-dl-btn__blobs"><span></span><span></span><span></span><span></span></span></span></a></section>                    </div>
+                        <section id="kidden_mc_widget-2" class="widget widget_kidden_mc_widget"><h2 class="widget-title">Demos el primer paso</h2><p>Consulta disponibilidad y recibe información sobre nuestros servicios.</p><a class="default-btn" href="https://wa.me/50664836199?text=Hola,%20quisiera%20más%20información%20sobre%20los%20servicios%20de%20Chamuel" target="_blank" rel="noopener noreferrer">Hablemos por WhatsApp<span class="blob-dl-btn__inner" aria-hidden="true"><span class="blob-dl-btn__blobs"><span></span><span></span><span></span><span></span></span></span></a></section>                    </div>
                             </div>
         </div>
     </div>
@@ -634,4 +691,4 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 
 
-<a class="back-top" href="#inicio" aria-label="Volver al inicio">↑</a></body></html>
+<button type="button" class="back-top" id="back-to-top" aria-label="Volver al inicio">↑</button></body></html>

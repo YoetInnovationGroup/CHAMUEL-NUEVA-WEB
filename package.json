@@ -1,0 +1,15 @@
+{
+  "name": "chamuel-web",
+  "version": "1.0.0",
+  "description": "Centro de Apoyo Educativo y Psicopedagógico Chamuel",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Static build ready'"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
